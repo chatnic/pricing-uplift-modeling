@@ -1,0 +1,42 @@
+{
+  "discount": 0.2,
+  "contact_cost": 0.5,
+  "holdout_size": 18000,
+  "average_effect": {
+    "renewal_control": 0.6925649314457697,
+    "renewal_treatment": 0.7838077306456972,
+    "revenue_per_sub_control": 100.86902240552892,
+    "revenue_per_sub_treatment": 91.71620334477795,
+    "treat_all_net_per_1k": -9652.819060750971
+  },
+  "models": {
+    "churn_risk": {
+      "qini": 2733.5123032048846,
+      "best_fraction": 0.25,
+      "best_net_per_1k": 1063.311090330828,
+      "corr_with_true_uplift": null,
+      "true_value_at_best_fraction_per_1k": 312.227413333334
+    },
+    "t_learner": {
+      "qini": 3382.106455568835,
+      "best_fraction": 0.2,
+      "best_net_per_1k": 1670.100713872273,
+      "corr_with_true_uplift": 0.6673056245199864,
+      "true_value_at_best_fraction_per_1k": 1060.6118933333341
+    },
+    "x_learner": {
+      "qini": 3868.7209204964615,
+      "best_fraction": 0.25,
+      "best_net_per_1k": 2590.5980265789594,
+      "corr_with_true_uplift": 0.7394878941988219,
+      "true_value_at_best_fraction_per_1k": 1429.906746666668
+    },
+    "transformed_outcome": {
+      "qini": 3155.6755689749207,
+      "best_fraction": 0.15,
+      "best_net_per_1k": 1454.9580747798282,
+      "corr_with_true_uplift": 0.5150388310123064,
+      "true_value_at_best_fraction_per_1k": 745.2003066666675
+    }
+  }
+}
